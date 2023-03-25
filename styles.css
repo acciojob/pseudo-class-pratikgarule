@@ -4,6 +4,7 @@ p{
 }
 p::before {
 	content: "Before Element ";
+	 const color= before.getPropertyValue("color");
 	color: rgb(255, 0, 0);
 	font-size: 20px;
 }
