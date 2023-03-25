@@ -1,4 +1,17 @@
 /*  your css code here. If applicable */
-.required label{
+
+/* .label::before{
 color:rgb(255,0,0);
+}
+.container label::after{
+color:rgb(255,0,0);
+} */
+
+p::before {
+	content: "Before Element ";
+	color: red;
+}
+p::after {
+	content: " After Element ";
+	color: red;
 }
