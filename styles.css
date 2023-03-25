@@ -1,7 +1,10 @@
 /*  your css code here. If applicable */
+p{
+	color:rgb(0, 0, 0);
+}
 p::before {
 	content: "Before Element ";
-	color: red;
+	color: rgb(255, 0, 0);
 	font-size: 20px;
 }
 p::after {
